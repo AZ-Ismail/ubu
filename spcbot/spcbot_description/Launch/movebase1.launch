@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+<include filename="$(find spcbot_description)/Launch/amcl.launch"/>
+
+<include file="$(find spcbot_description)/Launch/movebase2.launch"/>
+
+</launch>
